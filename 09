@@ -1,0 +1,5 @@
+[tatiana@~:%] cd /
+[tatiana@/:%] cd games
+cd: no such file or directory: games
+[tatiana@/:%] 
+Il n'existe pas de dossier games dans la racine

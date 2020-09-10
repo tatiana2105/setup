@@ -1,0 +1,39 @@
+[tatiana@~:%] pwd
+/home/tatiana 
+L'utilisateur tatiana se trouve dans son dossier personnel 
+
+[tatiana@~:%] whoami
+tatiana 
+tatiana est l'utilisateur connecte
+
+[tatiana@~:%] which ls
+/bin/ls
+ La commande ls se trouve dans le dossier bin
+
+[tatiana@~:%] du -h 
+740M	./.local
+4.0K	./.gphoto
+1.2G	./Music
+6.7G	. 
+Affiche la taille des fichier au format lisible par l'homme
+
+[tatiana@~:%] du -ah
+ Pogol) - Le Pied de Yagami (Audio officiel).webm
+11M	./Music/Firework - Katy Perry (Lyrics).webm
+1.2G	./Music
+6.7G	. 
+ Affiche la taille des fichier au format lisible par l'homme
+
+[tatiana@~:%] du
+4	./.gphoto
+1177964	./Music
+6945512	.
+Estime l'espace de l'utilisation fichier  
+
+[tatiana@~:%] du -ah
+du: cannot read directory './.dbus': Permission denied
+du: cannot read directory './.gvfs': Permission denied
+du: cannot read directory './.cache/dconf': Permission denied
+6.7G	.
+...
+

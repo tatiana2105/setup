@@ -1,0 +1,36 @@
+profile: /etc/profile Execute des commandes dansl'environnement du shell de connexion
+shadow: /etc/shadow Stocke lemot de passe reel au format crypte pour e compte utilisateur avec des proprietes liees au mot de passe de l'utilisateur
+passwd: /etc/passwd Contient toutes les informations relatives aux utilisateurs(login, mots depasse...)
+hosts: /etc/hosts Permet de debloquer l'acces a un site internet, de le rediriger, de bloquer les pubs et d'ameliorer l'acces a des sites en fonction de la configuration de celui-ci
+hostname: /etc/hostname
+crontab:/etc/contrab Contient la liste  des travaux periodiques a effectuer
+networks: /etc/network Recupere les parametres d'une ancienne ubuntu sur une autre partition
+
+nano:/bin/nano Permet d'editer ou dans un fichier
+cat:/bin/cat Affiche le contenu des fichiers
+pwd:/bin/pwd Affiche le nom du repertoire actuel
+ls:/bin/ls Liste le contenu d'un repertoire
+cd: Se deplacer dans un repertoire
+du:/usr/bin/du Permet d'obtenir une estimation de la taille d'un fichier ou d'un repertoire
+whereis: Permet de localiser les fichiers binaires, sources et de manuel
+which:/bin/which Affiche le chemin complet des commandes
+
+
+.nanorc:/usr/bin/. Contient le fichier de configuration de nano
+.zshrc:/home/tatiana/.zshrc Contient le fichier de configuration de zsh
+.bashrc:/home/tatiana/.bashrc Contient le fichier de configuration de bash
+
+
+grub.cfg:
+tty1:/home/tatiana/dev
+pts:/home/tatiana/pts
+sda: /home/tatiana/sda
+disk: /home/tatiana/disk
+lib: /home
+home:/home
+root:/home
+usr:/usr
+var:
+tmp:
+
+
